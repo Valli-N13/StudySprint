@@ -1,16 +1,97 @@
-# React + Vite
+StudySprint
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StudySprint is a simple student productivity web application built with React. It helps students organize their daily study tasks and keep track of their progress in one place.
 
-Currently, two official plugins are available:
+Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+"Open StudySprint" (https://valli-n13.github.io/StudySprint/)
 
-## React Compiler
+Demo Video
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+"Watch the StudySprint Demo" (https://drive.google.com/file/d/1Y0htjbaGDTrJTQRx9PbcHV5f5ECvgB86/view?usp=sharing)
 
-## Expanding the ESLint configuration
+Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new study tasks
+- Add a subject for each task
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks by All, Pending, and Completed
+- View today's study progress
+- Responsive design for different screen sizes
+- Simple single-page interface
+
+Screenshots
+
+Dashboard
+
+"StudySprint Dashboard" (src/screenshots/dashboard.png)
+
+Task Management
+
+"Task Management" (src/screenshots/task-management.png)
+
+Mobile View
+
+"StudySprint Mobile View" (src/screenshots/mobile.jpg)
+
+Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
+
+React Concepts Used
+
+This project uses the following React concepts:
+
+- Components
+- JSX
+- Props
+- State with "useState"
+- "useEffect"
+- Event handling
+- Conditional rendering
+- List rendering with "map()"
+- Filtering with "filter()"
+
+How to Run
+
+1. Clone the repository.
+
+2. Open the project folder in the terminal.
+
+3. Install the required packages:
+
+npm install
+
+4. Start the development server:
+
+npm run dev
+
+5. Open the local URL shown in the terminal.
+
+How to Use
+
+1. Enter a task and subject in the input fields.
+2. Click Add Task to add it to the study plan.
+3. Click Complete to mark a task as completed.
+4. Use the All, Pending, and Completed filters to view different tasks.
+5. Click Delete to remove a task.
+6. The progress section updates automatically when tasks are completed.
+
+Future Improvements
+
+Some possible future improvements include:
+
+- Saving tasks using local storage
+- Adding due dates
+- Adding task priorities
+- Adding dark mode
+- Adding weekly progress statistics
+
+Project Purpose
+
+The project was created as a learning project to practice the fundamentals of web development and React.
