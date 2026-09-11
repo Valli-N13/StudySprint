@@ -12,7 +12,7 @@ const initialTasks = [
     id: 2,
     title: "Practice Python loops",
     subject: "Programming",
-    completed: true
+    completed: false
   },
   {
     id: 3,
